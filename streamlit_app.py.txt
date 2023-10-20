@@ -1,0 +1,10 @@
+import pandas as pd
+import streamlit as st
+
+# Crear un DataFrame simple
+df = pd.DataFrame({
+    'Mensaje': ['¡Hola mundo!']
+})
+
+# Mostrar el DataFrame con Streamlit
+st.dataframe(df)
